@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "BarlowCondensed";
+    src: url("fonts/BarlowCondensed-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SpaceGrotesk";
+    src: url("fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "BarlowCondensed", sans-serif !important;
+}
+
+body {
+    font-family: "SpaceGrotesk", sans-serif !important;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 1.25rem 5rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: 0.35em;
+    color: #000;
+}
+
+.navbar .nav-link {
+    font-size: 0.95rem;
+    color: #1a1a1a;
+    margin-left: 1rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        padding: 1rem 1.5rem;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.c-black {
+    color: #000;
+}
+
+.c-dark-grey {
+    color: #1a1a1a;
+}
+
+.c-white {
+    color: #fff;
+}
+
+.vertical-hr {
+    width: 1px;
+    min-width: 1px;
+    height: auto;
+    align-self: stretch;
+    border: none;
+    opacity: 1;
+    margin: 0;
+}
+
+.f-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 9px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.f-btn:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+.t-btn-w {
+    background-color: transparent;
+    color: #fff;
+    padding: 9px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.t-btn-w:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.sec-1 {
+    height: 100vh;
+    background-image: url("imgs/bro.avif");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sec-2 {
+    background-color: #000;
+}
+
+.sec-3 {
+    background-color: #fff;
+}
+
+.sec-4 {
+    background-image: url("imgs/machine.avif");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.inf-box {
+    background-color: #000;
+}
+
+@media (min-width: 992px) {
+    .inf-box {
+        width: 33%;
+    }
+}
